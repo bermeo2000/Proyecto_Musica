@@ -1,0 +1,16 @@
+<div style=" 
+height: 80.2vh;">
+    <div style="width: 80%; text-align: center; margin: auto; margin-top: 50px;">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col" *ngFor="let items of genres;">
+                <div class="card h-100">
+                    <img src="{{ items.picture_big}}" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">{{items.name}}</h5>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
